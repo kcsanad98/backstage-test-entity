@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-jira-test-entity
+  annotations:
+    jira/project-key: VERAPIPP
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "user:default/guest"
