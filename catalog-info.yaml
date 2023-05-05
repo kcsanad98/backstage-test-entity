@@ -1,8 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: 'backstage-test-entity'
+  name: "backstage-test-entity"
+  description: "Test entity for Backstage applications"
 spec:
   type: service
   lifecycle: experimental
-  owner: 'user:default/guest'
+  owner: "user:default/guest"
