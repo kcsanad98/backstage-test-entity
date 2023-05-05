@@ -4,6 +4,7 @@ metadata:
   name: backstage-jira-test-entity
   annotations:
     jira/project-key: VERAPIPP
+    jira/token-type: Bearer
 spec:
   type: service
   lifecycle: experimental
