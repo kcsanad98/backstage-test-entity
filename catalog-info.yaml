@@ -3,6 +3,9 @@ kind: Component
 metadata:
   name: "backstage-test-entity"
   description: "Test entity for Backstage applications"
+  - url: https://github.com/kcsanad98/backstage-test-entity
+      title: GitHub
+      icon: github
 spec:
   type: service
   lifecycle: experimental
